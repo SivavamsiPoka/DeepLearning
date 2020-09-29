@@ -1,1 +1,12 @@
-
+## Neural Network    
+- [**FeedForwardBasics**](./feedforwardBasics.ipynb)
+    - Creating a single layer feed forward using torch low end API its understanding such that basic torch calculation-sum, matmul, view.
+    - Creating a multilayer feed forward using torch low end API and its understanding such that dim parameter, torch and numpy conversions.
+    - Different implementation styles of feed forward using torch high end API i.e torch.nn library and its understanding such that configuring the weights, bias, nn.Sequential, nn.Linear, torchvision, nn.Functional.
+ - [**BackpropagationBasics**](./backpropagation.ipynb)
+    - Calculating loss and gradients, updating gradient and run the epochs such that building a pipline for backpropagation.
+    - Understanding high end API of optim, loss function, backward(), autograd.
+- [**Train&Validation**](./train&validation.ipynb)
+    - Code for understandng piplines of training mode and validation mode.
+    - Undertsnading of low end API topk function, model.train and model.eval.
+    - Model saving and loading.
