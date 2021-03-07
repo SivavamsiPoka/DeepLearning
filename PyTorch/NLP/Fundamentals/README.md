@@ -1,1 +1,4 @@
-
+  - training Batches (Torch.text,Manual)
+  - FeedFoward (batchFirst=True/False)
+  - BackPropagation(train and eval)
+  - prediction (Classification and Sequences)
