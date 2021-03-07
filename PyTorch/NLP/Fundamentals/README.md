@@ -1,4 +1,4 @@
   - training Batches (Torch.text,Manual)
-  - FeedFoward (batchFirst=True/False)
-  - BackPropagation(train and eval)
+  - FeedFoward (batchFirst=True/False on LSTM)
+  - BackPropagation(train and eval,Epoch and Iterations)
   - prediction (Classification and Sequences)
