@@ -1,9 +1,9 @@
 Capstone Report
 
  # Data Cleaning:
-   *The Dataset is a text file with pair's of english text and python code.
-   *Each example is seperated by a new_line character and '#' symbol**(\n#) **.
-   *Additionally some sentences start with a space after the '#' symbol and some don't, to remove them the queue is first tokenised and          checked for space's in the beginning of the sentence.
+   ** The Dataset is a text file with pair's of english text and python code.
+   ** Each example is seperated by a new_line character and '#' symbol**(\n#) **.
+   ** Additionally some sentences start with a space after the '#' symbol and some don't, to remove them the queue is first tokenised and          checked for space's in the beginning of the sentence.
 
 # Data Preparation:
     * During the training of the model it was found that two similar queue's when passed through the model would give different result even though they mean the same.
